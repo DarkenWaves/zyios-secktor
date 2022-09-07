@@ -261,7 +261,7 @@ try {
     //     ╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
     //         Blocking commmands in Pm.
     //      ╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
-    if (icmd && !citel.isGroup && !isCreator) return citel.reply(`*_Sorry ${pushname} ${LangG.greet},using commands are not allowed in Dm_*\n\n*_https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbC_*`)
+    if (icmd && !citel.isGroup && !isCreator) return citel.reply(`*_ ${pushname} ${LangG.greet},Befehle sind Derzeit Deaktiviert_*\n\n*_Kontaktiere mein Owner für mehr infos_*`)
     let totalhit = require("util")
       .inspect(hit.all);
     if (icmd) {
@@ -275,7 +275,7 @@ try {
     //////////Block-in-moderation-Group//////////
     let supportdev = citel.sender === '919628516236@s.whatsapp.net' || citel.sender === '918639650925@s.whatsapp.net'
     let allowfew = !supportdev || budy!=='.qr'
-    if (icmd && allowfew && citel.chat === "120363025246125888@g.us") return citel.reply(`Hey ${pushname}\nBots are not allowed in Secktor Support Group.\n\nThis Group is Mainly intended for queries and Related to Secktor Support.\nJoin http://gg.gg/Secktor-Offtopic to use bots.\n\n*_Regard: CitelVoid_*`)
+    if (icmd && allowfew && citel.chat === "120363025246125888@g.us") return citel.reply(`Hey ${pushname}\nBefehle sind nicht erlaubt.\n\nkontaktiere mein Owner.\nGood bye bro_*`)
     /*
 ╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
 Here we are setting Levelling,With help of Module discord-Xp  https://www.npmjs.com/package/discord-xp
@@ -371,13 +371,13 @@ Works with MongoDb so no data loss.
           },
           caption: `
      ╔════◇
-     ║ *Wow,Someone just*
-     ║ *leveled Up huh⭐*
+     ║ *Wow,ein bro*
+     ║ *level Up huh⭐*
      ║ *👤Name*: ${pushname}
      ║ *🎐Level*: ${sck1.level}🍭
-     ║ *🛑Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
-     ║ *📍Role*: *${role}*
-     ║ *Enjoy🥳*
+     ║ *🛑Xp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
+     ║ *📍Rolle*: *${role}*
+     ║ *Nice🥳*
      ╚════════════╝
       `,
         }, {
