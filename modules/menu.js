@@ -98,7 +98,7 @@
 ║ *⦿Time:* ${timenow}
 ║ *⦿Total Messages:*- ${ttms}
 ╚═══════════════╝
-𝐌𝐲 𝐮𝐬𝐚𝐛𝐥𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐫𝐞 𝐥𝐢𝐬𝐭𝐞𝐝 𝐛𝐞𝐥𝐨𝐰
+Hier siehst du alle meine Befehle :)
 ${readmore}
 *--------《 🦸‍♂️𝙾𝚠𝚗𝚎𝚛🦸‍♂️ 》--------*
 \`\`\`restart, shutdown, dlmod, sessionfile, lockfile,  ulmod, chatbot, allmod, emod, theme, setprefix, chatbot, mode, approve, disapprove, bcgroup, setsudo, addnote, delnote, allnotes, eval, shell\`\`\`
@@ -137,8 +137,8 @@ ${readmore}
 \`\`\`vixen, rpussy, ranal, rboobs, cossplay hentai, fisting, fingering pussy, panties, anal, hentai, milf, tits, school, maid, nurse, tushy, sis, foot, boobs, solo, ecchi\`\`\`
 
 *📌𝙽𝚘𝚝𝚎* You can use
-<<𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙>> 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚒𝚗𝚏𝚘 𝚘𝚏 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝙲𝚘𝚖𝚖𝚊𝚗𝚍
-_🌟Eg: -anime help_`;
+<<siehe meine speziellen Befehle mit 
+_🌟zb: -anime help_`;
 			/*
 			await Void.sendMessage(from, {
 					image:{url:picsecktor}, caption: hlp,
