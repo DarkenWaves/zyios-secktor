@@ -5,7 +5,7 @@
 			if (icmd) {
 				let buttonMessaged = {
 					image: { url: picsecktor },
-					caption: `Did you mean ${prefix}help?`,
+					caption: `Benutze ${prefix}help?`,
 					footer: ` ` + LangG.footer,
 					headerType: 4,
 					contextInfo: {
@@ -24,7 +24,7 @@
 				});
 			}
 			break
-					case "qr":
+					case "onqr":
  {
 	                       let generatebutton = [{
 					buttonId: `${prefix}qr`,
