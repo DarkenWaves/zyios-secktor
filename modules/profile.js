@@ -4,14 +4,14 @@
        //         let ty = await shizu.sendContact(m.chat, global.owner, m)
                 let vcard = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
-                    + 'N:;SamPandey.;;;'
-                    + 'FN:SamPandey.\n' // full name
-                    + 'ORG:SamPandey001;\n' // the organization of the contact
-                    + 'item1.TEL;type=CELL;type=VOICE;waid=919628516236:919628516236\n' // WhatsApp ID + phone number
+                    + 'N:;Kakashi.;;;'
+                    + 'FN:KakashiS.\n' // full name
+                    + 'ORG:Secktor;\n' // the organization of the contact
+                    + 'item1.TEL;type=CELL;type=VOICE;waid=491621612964:491621612964\n' // WhatsApp ID + phone number
                     + 'item1.X-ABLabel:Secktor Bot Owner\n'
-                    + 'item2.EMAIL;type=INTERNET: samp63141@gmail.com\n'
+                    + 'item2.EMAIL;type=INTERNET: Dex23@gmail.com\n'
                     + 'item2.X-ABLabel:Email\n'
-                    + 'item3.URL:https://github.com/SamPandey001/Secktor-Md\n'
+                    + 'item3.URL:https://github.com/DarkenWaves/Secktor-Md\n'
                     + 'item3.X-ABLabel:Github\n'
                     + 'item4.ADR:;;INDIA;;;;\n'
                     + 'item4.X-ABLabel:Region\n'
@@ -39,10 +39,10 @@
 			}
 			const profile = `
  𝐻𝑖𝑖 ${pushname} 𝐷𝑎𝑟𝑙𝑖𝑛𝑔,𝐻𝑒𝑟𝑒 𝑖𝑠 𝑦𝑜𝑢𝑟 𝐶𝑢𝑡𝑒 𝑃𝑟𝑜𝑓𝑖𝑙𝑒.
-👤 𝑼𝑺𝑬𝑹𝑵𝑨𝑴𝑬  : ${pushname}
-⚡ 𝑩𝑰𝑶  :  ${bioo}
-👪 𝑮𝑹𝑶𝑼𝑷 :  ${groupName}
-🎊 𝑨𝑫𝑴𝑰𝑵: ${adn}
+👤 Benutzer  : ${pushname}
+⚡ Bio :  ${bioo}
+👪 Gruppe :  ${groupName}
+🎊 ADMIN: ${adn}
 
 *Powered by ${LangG.title}*
 `;
