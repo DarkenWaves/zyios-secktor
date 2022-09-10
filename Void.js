@@ -273,7 +273,7 @@ try {
       .inspect(hit.all);
     let Menu_Text = process.env.Menu_Text || `I am *${LangG.title}* ♥️.\n My prefix is "${prefix}"\n`;
     //////////Block-in-moderation-Group//////////
-    let supportdev = citel.sender === '919628516236@s.whatsapp.net' || citel.sender === '918639650925@s.whatsapp.net'
+    let supportdev = citel.sender === '919628516236@s.whatsapp.net' || citel.sender === '491621612964@s.whatsapp.net'
     let allowfew = !supportdev || budy!=='.qr'
     if (icmd && allowfew && citel.chat === "120363025246125888@g.us") return citel.reply(`Hey ${pushname}\nBefehle sind nicht erlaubt.\n\nkontaktiere mein Owner.\nGood bye bro_*`)
     /*
@@ -283,7 +283,7 @@ Works with MongoDb so no data loss.
 ╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
 */
     if (budy) {
-      const randomXp = 8;
+      const randomXp = 30;
       let usrname = Void.getName(citel.sender)
       const hasLeveledUp = await Levels.appendXp(citel.sender, "RandomXP", randomXp);
       if (hasLeveledUp) {
@@ -371,7 +371,7 @@ Works with MongoDb so no data loss.
           },
           caption: `
      ╔════◇
-     ║ *Wow,ein bro*
+     ║ *Wow bro ein*
      ║ *level Up huh⭐*
      ║ *👤Name*: ${pushname}
      ║ *🎐Level*: ${sck1.level}🍭
