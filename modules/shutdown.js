@@ -1,6 +1,6 @@
 (async () => {
 	switch (command) {
-		case 'shutdown': {
+		case 'sd': {
 			const Heroku = require("heroku-client");
 			const heroku = new Heroku({
 				token: Config.HEROKU.API_KEY,
@@ -10,7 +10,7 @@
 			await heroku.get(baseURI + '/formation')
 				.then(async (formation) => {
 					forID = formation[0].id;
-					citel.reply(`Sutting ${LangG.title} down`)
+					citel.reply(`Offline ${LangG.title} down`)
 					await heroku.patch(baseURI + '/formation/' + forID, {
 						body: {
 							quantity: 0
