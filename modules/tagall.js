@@ -2,7 +2,7 @@
 	switch (command) {
 		case "t-all":
 		case "all":
-		case "tagall": {
+		case "everyone": {
 			if (querie === "help") {
 				await citel.reply(`*❗Command:* TagAll\n*🍀Aliases* -t-all,-all,-tagall\n*🧩Category:* Moderation\n*🛠️Usage:* ${
                 prefix + command
@@ -11,8 +11,8 @@
 			}
 			if (!citel.isGroup) return citel.reply(LangG.group);
 			if (!isAdmins) return citel.reply(LangG.admin);
-			let textt = `══✪〘 🛡️ *Tag All* 🛡️ 〙✪══
-➲ *Message :* ${querie ? querie : "blank"}\n\n`;
+			let textt = `══✪〘 🛡️ *Everyone* 🛡️ 〙✪══
+➲ *Info :* ${querie ? querie : "blank"}\n\n`;
 			for (let mem of participants) {
 				textt += `📍 @${mem.id.split("@")[0]}\n`;
 			}
@@ -26,4 +26,3 @@
 		break;
 	}
 })()
-

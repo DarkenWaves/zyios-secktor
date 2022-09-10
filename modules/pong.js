@@ -1,6 +1,6 @@
 (async () => {
 	switch (command) {
-		case "ping": {
+		case "p1": {
 			if (querie === "help") {
 				await citel.reply(`*❗Command:*   Ping\n*🍀Aliases* ${
                 prefix + command
@@ -12,7 +12,7 @@
 			timestampe = speed();
 			latensie = speed() - timestampe;
 			const pong = `
-*Pong📍* ${latensie.toFixed(4)} ms`;
+*「Speed」✨* ${latensie.toFixed(4)} ms`;
 			citel.reply(pong);
 		}
 		break;

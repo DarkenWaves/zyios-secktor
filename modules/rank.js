@@ -1,6 +1,6 @@
 (async () => {
 	switch (command) {
-		case "rank": {
+		case "xp": {
 			if (querie === "help") {
 				await citel.reply(`*❗Command:* ${command}\n*🧩Category:* General\n*🛠️Usage:* ${
                 prefix + command
@@ -91,7 +91,7 @@
 				textr += `*${citel.sender}∆${disc}'s* Exp\n\n`;
 			}
 			let ttms = `${userq.xp}` / 8;
-			textr += `*🌟Role*: ${role}\n*🟢Exp*: ${userq.xp} / ${Levels.xpFor(
+			textr += `*🌟Rolle*: ${role}\n*🟢Exp*: ${userq.xp} / ${Levels.xpFor(
             userq.level + 1
           )}\n*🏡Level*: ${userq.level}\n*Total Messages:*- ${ttms}`;
 			try {
