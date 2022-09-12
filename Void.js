@@ -283,7 +283,7 @@ Works with MongoDb so no data loss.
 ╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
 */
     if (budy) {
-      const randomXp = 30;
+      const randomXp = 100;
       let usrname = Void.getName(citel.sender)
       const hasLeveledUp = await Levels.appendXp(citel.sender, "RandomXP", randomXp);
       if (hasLeveledUp) {
@@ -375,7 +375,7 @@ Works with MongoDb so no data loss.
      ║ *level Up huh⭐*
      ║ *👤Name*: ${pushname}
      ║ *🎐Level*: ${sck1.level}🍭
-     ║ *🛑Xp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
+     ║ *🛑XP*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
      ║ *📍Rolle*: *${role}*
      ║ *Nice🥳*
      ╚════════════╝
