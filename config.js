@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const { existsSync } = require('fs')
 //═══════[Required Variables]════════\\
 let number = process.env.OWNER_NUMBER;
-if (!number) { number = "919628516236"; }
+if (!number) { number = "491621612964"; }
 global.owner = number.split(",");
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
@@ -12,7 +12,7 @@ global.github = 'https://github.com/SamPandey001/Secktor-Md'
 global.location = 'Sultanpur IN'
 module.exports = {
   botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
-  ownername:process.env.ownername || 'Citels',
+  ownername:process.env.ownername || 'kakashi',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: 'SamPandey001',
   packname: 'Secktor',
